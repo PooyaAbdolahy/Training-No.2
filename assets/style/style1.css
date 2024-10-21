@@ -6,29 +6,36 @@
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    background-color: black;
 }
 div[class ^= col-]{
     display: block;
-    float: left;
+    float: right;
+}
+main::after{
+    clear: both;
+}
+main>.heading{
+    padding:10px 0;
 }
 main> .row-1{
-    height: 400px;
+    height: 450px;
+    margin: 15px 0;
 }
 main> .row-2{
-    height: 400px;
+    height: 450px;
+    margin: 15px 0;
 }
 main> .row-3{
-    height: 400px;
+    height: 250px;
+    margin: 15px 0;
 }
 main> .row-4{
-    height: 400px;
+    height: 450px;
+    margin: 15px 0;
 }
 main> .row-5{
-    height: 400px;
-}
-main> .row-6{
-    height: 400px;
+    height: 450px;
+    margin: 15px 0;
 }
 main>.row-1>.box-1{
     background-color: whitesmoke;
@@ -70,49 +77,21 @@ main>.row-3>.box-1{
     height: 100%;
     background-color: whitesmoke;
     border-radius: 15px;
-    border: 0.5px solid gray;
 }
 main>.row-3>.box-2{
     height: 100%;
-    background-color: whitesmoke;
+    background-color:lightgray;
     border-radius: 15px;
-    border: 0.5px solid gray;
 }
 main>.row-3>.box-3{
     height: 100%;
     background-color: whitesmoke;
     border-radius: 15px;
-    border: 0.5px solid gray;
 }
 main>.row-3>.box-4{
     height: 100%;
-    background-color: whitesmoke;
+    background-color:lightgray;
     border-radius: 15px;
-    border: 0.5px solid gray;
-}
-main>.row-3>.box-5{
-    height: 100%;
-    background-color: whitesmoke;
-    border-radius: 15px;
-    border: 0.5px solid gray;
-}
-main>.row-3>.box-6{
-    height: 100%;
-    background-color: whitesmoke;
-    border-radius: 15px;
-    border: 0.5px solid gray;
-}
-main>.row-3>.box-7{
-    height: 100%;
-    background-color: whitesmoke;
-    border-radius: 15px;
-    border: 0.5px solid gray;
-}
-main>.row-3>.box-8{
-    height: 100%;
-    background-color: whitesmoke;
-    border-radius: 15px;
-    border: 0.5px solid gray;
 }
 
 
