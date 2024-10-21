@@ -4,9 +4,16 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
+    color: black;
+}
+header>.row-1>.left>li{
+    display: inline-block;
 }
 body{
     text-align: center;
+}
+html{
+    scroll-behavior: smooth;
 }
 @media all and (max-width : 768px) {
     .col-sm-1{
