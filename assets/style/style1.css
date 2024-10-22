@@ -22,15 +22,7 @@ main> .row-2{
     margin: 15px 0;
 }
 main> .row-3{
-    height: 250px;
-    margin: 15px 0;
-}
-main> .row-4{
-    height: 450px;
-    margin: 15px 0;
-}
-main> .row-5{
-    height: 450px;
+    height: 350px;
     margin: 15px 0;
 }
 main>.row-1>.box-1{
@@ -70,35 +62,32 @@ main>.row-2>.box-2{
     border: 0.5px solid gray;
 }
 main>.row-3>.box-1{
-    height: 100%;
+    height: 95%;
+    margin-top: 8.75px;
+    margin-bottom: 8.75px;
     background-color: whitesmoke;
     border-radius: 15px;
 }
 main>.row-3>.box-2{
-    height: 100%;
+    height: 95%;
+    margin-top: 8.75px;
+    margin-bottom: 8.75px;
     background-color:lightgray;
     border-radius: 15px;
 }
 main>.row-3>.box-3{
-    height: 100%;
+    height: 95%;
+    margin-top: 8.75px;
+    margin-bottom: 8.75px;
     background-color: whitesmoke;
     border-radius: 15px;
 }
 main>.row-3>.box-4{
-    height: 100%;
+    height: 95%;
+    margin-top: 8.75px;
+    margin-bottom: 8.75px;
     background-color:lightgray;
     border-radius: 15px;
-}
-header>.row-1{
-    height: 50px;
-    position: absolute;
-    top: 0;
-}
-header>.row-1>.left{
-    position: relative;
-    left: 0;
-    top: 0;
-    height: 100%;
 }
 .material-symbols-outlined {
   font-variation-settings:
@@ -108,6 +97,19 @@ header>.row-1>.left{
   'opsz' 24
   ;
 }
+header>.row-1{
+    height: 50px;
+    position: relative;
+    width: 100%;
+    top: 0;
+}
+header>.row-1>.left{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+}
 header>.row-1>.left>li>a{
     padding: 10px;
     margin: 5px;
@@ -116,13 +118,15 @@ header>.row-1>.left>li>a{
     border: 0.5px solid lightgray;
 }
 header>.row-1>.right{
-    position: relative;
+    position: absolute;
     right: 0;
     top: 0;
     height: 100%;
+    margin: 50%;
 }
-header>.row-1>.right{
+header>.row-1>.right>input{
     padding: 10px;
+    height: 30px;
     margin: 5px;
     background-color: whitesmoke;
     border-radius: 15px;
@@ -134,7 +138,4 @@ footer{
     bottom: 0;
     background-color: whitesmoke;
     border: 0.5px solid lightgray;
-}
-main::after{
-    clear: both;
 }
