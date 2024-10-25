@@ -99,14 +99,9 @@ main>.row-3>.box-4{
 }
 header>.row-1{
     height: 50px;
-    position: relative;
-    width: 100%;
-    top: 0;
 }
 header>.row-1>.left{
-    position: absolute;
-    left: 0;
-    top: 0;
+    float: left;
     height: 100%;
     width: 50%;
 }
@@ -116,22 +111,22 @@ header>.row-1>.left>li>a{
     background-color: whitesmoke;
     border-radius: 15px;
     border: 0.5px solid lightgray;
+    display: block;
 }
 header>.row-1>.right{
-    position: absolute;
-    right: 0;
-    top: 0;
+    float: right;
     height: 100%;
-    margin: 50%;
+    width: 50%;
 }
 header>.row-1>.right>input{
     padding: 10px;
+    width: 25%;
     height: 30px;
-    margin: 5px;
+    margin: 5px auto;
     background-color: whitesmoke;
     border-radius: 15px;
-    border: 0.5px solid lightgray;
-    display: inline-block;
+    display: block;
+
 }
 footer{
     position: relative;
